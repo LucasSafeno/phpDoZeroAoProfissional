@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.topo{
+    height: 30px;
+    background: #333;
+    color: white;
+}
+
+.topoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.toporight{
+    width: 50%;
+    height: 28px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.topoleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topoleft li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topoleft li a{
+    text-decoration: none;
+    color: white;
+}
+ .topoleft li .ativo{
+     color: blue;
+ }
+
+ .topobusca{
+     width: 110px;
+     height: 23px;
+     outline: 0;
+ }
+
+ .toporight a{
+     float: right;
+ }
+
+ .toporight input{
+    float: right;
+ }
