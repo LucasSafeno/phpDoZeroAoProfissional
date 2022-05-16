@@ -55,7 +55,7 @@ body{
 
  .topobusca{
      width: 110px;
-     height: 23px;
+     height: 20px;
      outline: 0;
  }
 
@@ -65,4 +65,34 @@ body{
 
  .toporight input{
     float: right;
+ }
+ .toporight img{
+     margin-right: 4px;
+ }
+
+ /*Topo2*/
+ .topo2{
+     height: 95px;
+     color: black;
+ }
+ .topo2int{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+ }
+
+ .logo{
+     width: 230px;
+     height: 85px;
+     float: left;
+     margin-top: 10px;
+ }
+
+ .topo2 .banner{
+     width: 650px;
+     height: 80px;
+     float: right;
+     margin-top: 7px;
+     background-color: red;
  }
