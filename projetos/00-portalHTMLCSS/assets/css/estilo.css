@@ -96,3 +96,54 @@ body{
      margin-top: 7px;
      background-color: red;
  }
+
+ .menu{
+     height: 40px;
+     background-color: red;
+ }
+
+ .menuint{
+     width: 100%;
+     max-width: 1040px;
+     margin: auto;
+     height: 40px;
+ }
+
+ .menu ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .menu li{
+     float: left;
+     height: 40px;
+     line-height: 40px;
+     padding-left: 8px;
+     padding-right: 8px;
+ }
+ .menu li:hover .submenu{
+    display: block;
+ }
+ .menu a{
+     color: white;
+     text-decoration: none;
+ }
+
+ .submenu{
+     width: 150px;
+     background-color: red;
+     position: absolute;
+     display: none;
+ }
+
+ .submenuitem{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+ }
+
+ .submenuitem:hover{
+     background-color:  #FF5555;
+ }
