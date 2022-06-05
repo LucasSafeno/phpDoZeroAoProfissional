@@ -194,10 +194,7 @@ body{
 
  .leftside{
     width: 753px;
-    min-height: 200px;
     float: left;
-    background: #999;
-
  }
 
  .rightside{
@@ -226,4 +223,19 @@ body{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+ }
+
+ .slideshow{
+     height: 335px;
+     background-color: #CCC;
+     overflow: hidden;
+ }
+
+ .slideshowarea{
+    height: 335px;
+ }
+
+ .slide{
+     height: 335px;
+     float: left;
  }
