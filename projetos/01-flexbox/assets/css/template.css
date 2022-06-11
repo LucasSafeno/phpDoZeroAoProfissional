@@ -171,3 +171,29 @@ nav a:hover{
 	background-color: #36A9E1;
 	margin-top: 10px;
 }
+
+.widget_body{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 240px;
+}
+
+.widget_body_box{
+	width: 100px;
+	height: 120px;
+	background-color: #36A9E1;
+	margin: 10px;
+}
+.widget_text p{
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+.widget_body_contact{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px
+}
