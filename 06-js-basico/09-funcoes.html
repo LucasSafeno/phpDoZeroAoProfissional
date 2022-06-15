@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Funções</title>
+    <script type="text/javascript">
+        function fazerAcao(nome){
+            var area = document.getElementById("area");
+            var texto = prompt("Qual seu Sobrenome ?");
+
+
+            area.style.fontSize = "20px";
+            area.style.fontWeight = "Bold";
+            area.innerHTML = nome+ " "+texto;
+        }
+       
+    </script>
+</head>
+<body>
+
+    <div id="area">
+        Cillum velit cillum duis do ipsum sunt elit aliqua deserunt ea do.
+    </div>
+    <br /><br />
+    <button onClick="fazerAcao('Lucas')">Fazer a ação</button>
+    
+
+</body>
+</html>
