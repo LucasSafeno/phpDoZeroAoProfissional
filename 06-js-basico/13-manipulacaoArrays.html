@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arrays - Manipular </title>
+    <script type="text/javascript">
+        // declarar
+        var lista = ["Feijão", "Arroz", "Carne", 20];
+
+        // Busca valor
+        console.log(lista.indexOf("Arroz"));
+
+        // transforma array em string, pasado por parametro como irá separar itens
+        console.log(lista.join(","));
+        console.log(lista.join("/"));
+        console.log(lista.join("-"));
+
+        // remover ultimo item
+        lista.pop()
+        console.log(lista)
+
+        // remove primeiro item 
+        lista.shift()
+        console.log(lista)
+
+        // adiciona item
+        lista.push("Teste add")
+        console.log(lista)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
