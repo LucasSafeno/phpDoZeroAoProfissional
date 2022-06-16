@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modificando Lista </title>
+    <script type="text/javascript">
+        function adicionarIngrediente(){
+            
+            // get value input
+            var ing = document.getElementById("ingrediente").value;
+            // get content list
+            var listahtml = document.getElementById("lista").innerHTML;
+
+            //add value on list
+            listahtml = listahtml + "<li>"+ing+"</li>";
+
+            // fix new value in html
+            document.getElementById("lista").innerHTML = listahtml;
+
+        }
+    </script>
+</head>
+<body>
+    <h3>Ingredientes do bolo </h3>
+
+    <input type="text" id="ingrediente">
+    <button onclick="adicionarIngrediente()">Adicionar</button><br><br>
+
+    <ul id="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+</body>
+</html>
