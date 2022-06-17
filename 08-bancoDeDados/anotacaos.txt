@@ -1,0 +1,22 @@
+# Criar Banco de dados
+
+CREATE DATABASE  teste321;
+
+# Mostrar bancao de dados
+
+SHOW DATABASES;
+
+# Selecionar / Usar banco dados
+
+USER nameBd;
+
+# Deletar banco de dados
+
+DROP DATABASE nomeBd;
+
+_______________________________________________________________________________________
+
+######################
+## TIPOS DE DADOS	##
+######################
+
