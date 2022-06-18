@@ -41,3 +41,11 @@ year 		= ano
 ######################
 
 SELECT *(campos) FROM table(tabela);
+
+
+######################
+## COMANDO INSERT	##
+######################
+
+INSERT INTO table SET campo = "value"; // funciona apenas no MariaDB/MySQL
+INSERT INTO table (campos)  VALUES ("exemplo"); // padrão de todos banco de dados SQL
