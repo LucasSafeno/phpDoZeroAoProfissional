@@ -27,12 +27,17 @@ ________________________________________________________________________________
 ## TIPOS DE DADOS	##
 ######################
 
-int = números inteiros - até 11 caracteres
-varchar = numero e letra
-date = datas inteiras (ano, mes e dia)
-datetime = ano, mes, dia, hora, minutos e segundos
-timestamp = representação da data em milisegundos
-time = armazena horas, minutos e segundos
-year = ano
+int 		= números inteiros - até 11 caracteres
+varchar 	= numero e letra
+date 		= datas inteiras (ano, mes e dia)
+datetime	= ano, mes, dia, hora, minutos e segundos
+timestamp 	= representação da data em milisegundos
+time 		= armazena horas, minutos e segundos
+year 		= ano
 
 
+######################
+## COMANDO SELECT	##
+######################
+
+SELECT *(campos) FROM table(tabela);
