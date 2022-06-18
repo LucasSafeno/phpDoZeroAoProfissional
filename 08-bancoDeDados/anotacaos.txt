@@ -49,3 +49,10 @@ SELECT *(campos) FROM table(tabela);
 
 INSERT INTO table SET campo = "value"; // funciona apenas no MariaDB/MySQL
 INSERT INTO table (campos)  VALUES ("exemplo"); // padrão de todos banco de dados SQL
+
+
+######################
+## COMANDO UPDATE	##
+######################
+
+ UPDATE table SET campo = "new_value" WHERE; // nunca esquecer WHERE!!!
