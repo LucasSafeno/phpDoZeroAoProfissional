@@ -35,6 +35,7 @@ timestamp 	= representação da data em milisegundos
 time 		= armazena horas, minutos e segundos
 year 		= ano
 
+_______________________________________________________________________________________
 
 ######################
 ## COMANDO SELECT	##
@@ -42,6 +43,7 @@ year 		= ano
 
 SELECT *(campos) FROM table(tabela);
 
+_______________________________________________________________________________________
 
 ######################
 ## COMANDO INSERT	##
@@ -50,9 +52,17 @@ SELECT *(campos) FROM table(tabela);
 INSERT INTO table SET campo = "value"; // funciona apenas no MariaDB/MySQL
 INSERT INTO table (campos)  VALUES ("exemplo"); // padrão de todos banco de dados SQL
 
+_______________________________________________________________________________________
 
 ######################
 ## COMANDO UPDATE	##
 ######################
 
  UPDATE table SET campo = "new_value" WHERE; // nunca esquecer WHERE!!!
+
+
+######################
+## COMANDO DELETE	##
+######################
+
+DELETE FROM table WHERE;
