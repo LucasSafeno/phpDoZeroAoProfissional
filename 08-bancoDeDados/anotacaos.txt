@@ -141,7 +141,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________
 
 
-#############################################
+##############################################
 ## RELACIONAMENTO ENTRE TABELAS				##
 ##############################################
 
@@ -150,6 +150,20 @@ ________________________________________________________________________________
 	Primeiro 	-	1:N = Relação entre 1 para muitos (tabela categoria. Varios item relacionados a uma categoria)
 	Segundo 	-	1:1 = 1 item está relacionado diretamente a outro item (sitema de token)
 	Terceiro 	-	N:N = Varios para Varios (1 produtos pode ter varias cores, e uma cor pode ter varios produtos 						  associados)
+_______________________________________________________________________________________
 
+
+##############################################
+## CONSULTA AVANÇADAS COM JOIN				##
+##############################################
+
+
+	3 Principais JOIN's : inner join, left join e right join
+
+	INNER JOIN 	= SELECT usuarios.nome, faixas.titulo FROM usuarios  INNER JOIN faixas ON faixas.id = usuarios.faixa_salario; // retorna apenas resultados bem sucessedidos 
+
+	LEFT JOIN = SELECT usuarios.nome, faixas.titulo FROM usuarios  LEFT JOIN faixas ON faixas.id = usuarios.faixa_salarial; //  retorna todos os resultados da tabela da esquerda independente se houver relação ou não
+
+	RIGHT JOIN = SELECT usuarios.nome, faixas.titulo FROM usuarios  LEFT JOIN faixas ON faixas.id = usuarios.faixa_salario ; //prioriza os resultado da tabela da direita, independente da relação
 
 _______________________________________________________________________________________
