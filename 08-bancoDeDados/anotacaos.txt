@@ -167,3 +167,13 @@ ________________________________________________________________________________
 	RIGHT JOIN = SELECT usuarios.nome, faixas.titulo FROM usuarios  LEFT JOIN faixas ON faixas.id = usuarios.faixa_salario ; //prioriza os resultado da tabela da direita, independente da relação
 
 _______________________________________________________________________________________
+
+
+##############################################
+## SUBCONSULTA COM SUBQUERY					##
+##############################################
+
+  consulta dentro da consulta 
+  	SELECT usuarios.nome, (select faixas.titulo FROM faixas WHERE faixas.id = usuarios.faixa_salarial) as faixa FROM usuarios;
+
+_______________________________________________________________________________________
