@@ -177,3 +177,17 @@ ________________________________________________________________________________
   	SELECT usuarios.nome, (select faixas.titulo FROM faixas WHERE faixas.id = usuarios.faixa_salarial) as faixa FROM usuarios;
 
 _______________________________________________________________________________________
+
+
+##############################################
+## CRIAR FUNÇÕES							##
+##############################################
+
+	CREATE FUNCTION CONTAR(nome VARCHAR(100))
+	RETURNS INT(10)
+    BEGIN
+    	DECLARE qt INT(10);
+        SET qt = LENGTH(nome);
+        RETURN qt;
+    END$$ 
+_______________________________________________________________________________________
