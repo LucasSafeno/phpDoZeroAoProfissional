@@ -103,7 +103,6 @@ IN 			=	Cria uma lista e faz a pesquisa com informações passadas na lista do I
 
 _______________________________________________________________________________________
 
-
 ##########################
 ## COMANDO HAVING		##
 ##########################
@@ -114,5 +113,19 @@ HAVING = SELECT * FROM usuarios HAVING id = '1';
  HAVING usado quando for utilizar "alias"
  	SELECT * (id+10) as soma FROM usuarios HAVING soma < 15;
 
+
+_______________________________________________________________________________________
+
+##########################
+## ORDER BY e LIMIT		##
+##########################
+
+ORDER = ordenar resultados
+	SELECT * FROM usuarios ORDER BY data_nascimento DESC;
+
+
+LIMIT = Limitar resultados
+	SELECT * FROM usuarios ORDER BY data_nascimento ASC LIMIT 2;
+	SELECT * FROM  usuarios LIMIT 1, 2; // pula o primeiro resultado
 
 _______________________________________________________________________________________
