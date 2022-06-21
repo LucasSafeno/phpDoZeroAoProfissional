@@ -190,4 +190,20 @@ ________________________________________________________________________________
         SET qt = LENGTH(nome);
         RETURN qt;
     END$$ 
+
+    ----
+
+    SELECT nome, email, CONTAR(nome) as contagem FROM usuarios;
+
+_______________________________________________________________________________________
+
+##############################################
+## CRIAR VIEWS								##
+##############################################
+
+ VIEW = uma tabela falsa/ virtual
+
+ CREATE VIEW usuariosprimeirafaixa AS 
+	SELECT * FROM usuarios WHERE faixa_salarial = '1';
+ 
 _______________________________________________________________________________________
