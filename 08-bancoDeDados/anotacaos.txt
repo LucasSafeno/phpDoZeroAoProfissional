@@ -132,10 +132,24 @@ ________________________________________________________________________________
 
 
 ##########################
-## GROUP BY		##
+## GROUP BY				##
 ##########################
  
  GROUP BY = Agrupamento de informações
  	SELECT COUNT(*) as contagem, faixa_salarial FROM usuarios GROUP BY faixa_salarial;
+
+_______________________________________________________________________________________
+
+
+#############################################
+## RELACIONAMENTO ENTRE TABELAS				##
+##############################################
+
+3 Tipos de relacionamento :
+
+	Primeiro 	-	1:N = Relação entre 1 para muitos (tabela categoria. Varios item relacionados a uma categoria)
+	Segundo 	-	1:1 = 1 item está relacionado diretamente a outro item (sitema de token)
+	Terceiro 	-	N:N = Varios para Varios (1 produtos pode ter varias cores, e uma cor pode ter varios produtos 						  associados)
+
 
 _______________________________________________________________________________________
