@@ -129,3 +129,13 @@ LIMIT = Limitar resultados
 	SELECT * FROM  usuarios LIMIT 1, 2; // pula o primeiro resultado
 
 _______________________________________________________________________________________
+
+
+##########################
+## GROUP BY		##
+##########################
+ 
+ GROUP BY = Agrupamento de informações
+ 	SELECT COUNT(*) as contagem, faixa_salarial FROM usuarios GROUP BY faixa_salarial;
+
+_______________________________________________________________________________________
