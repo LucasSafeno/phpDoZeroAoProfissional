@@ -36,6 +36,7 @@
 	Titulo : <?php echo $info['titular']; ?> <br> 
 	Agência : <?php echo $info['agencia']; ?> <br>
 	Conta : <?php echo $info['conta']; ?>  <br>
-	<a href="sair.php">Sair</a>
+	Saldo : <?php echo $info['saldo']; ?> <br>
+ 	<a href="sair.php">Sair</a>
 </body>
 </html>
