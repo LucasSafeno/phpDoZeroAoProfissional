@@ -64,7 +64,7 @@
  							<?php if($item['tipo'] == '0'): ?>
  							<font color="green"> R$ <?php echo $item['valor']; ?></font></td>
  						<?php else: ?>
- 							<font color="red">- R$ <?php echo $item['valor']; ?></font></td>
+ 							<font color="red">- R$ <?php echo $item['valor']; ?></fontdd></td>
  						<?php endif; ?>
  					</tr>
  					<?php 
