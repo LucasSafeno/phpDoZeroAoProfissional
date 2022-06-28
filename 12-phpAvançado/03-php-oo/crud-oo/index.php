@@ -10,6 +10,8 @@ $contato = new Contato();
 
  <h1>Contatos</h1>
 
+    <a href="adicionar.php"> [ ADICIONAR ]</a>
+
  <table border="1" width="600">
     <tr>
         <th>ID</th>
