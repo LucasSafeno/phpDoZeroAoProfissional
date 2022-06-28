@@ -27,7 +27,7 @@ $contato = new Contato();
     <input type="text" name="nome" value="<?php echo $info['nome'];?>"> <br> <br>
 
     E-mail: <br>
-    <?php echo $info['email']; ?><br> <br>
+    <input type="text" name="email"value="<?php echo $info['email']; ?>"><br> <br>
 
     <input type="submit" value="Salvar">
 </form>

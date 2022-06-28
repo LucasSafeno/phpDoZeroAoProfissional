@@ -3,11 +3,14 @@ include "contato.class.php";
 $contato = new Contato();
 
     if(!empty($_POST['id'])){
-        $id = $_POST['id'];
         $nome = $_POST['nome'];
-
-        $contato->editar($nome, $id);
-
+        $email = $_POST['email'];
+        $id = $_POST['id'];
+        
+        if(!empty($email)){
+            $contato->editar($nome,$email, $id);
+        }
+        
         header("Location: index.php");
 
     }else{
