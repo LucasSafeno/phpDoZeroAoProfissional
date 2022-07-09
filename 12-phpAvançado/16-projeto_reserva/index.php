@@ -8,6 +8,7 @@
 ?>
 
 <h1>Reservas</h1>
+<a href="adicionar.php">Adicionar Reservas</a> <br> <br>
 <?php 
 $lista = $reservas->getReservas();
 
