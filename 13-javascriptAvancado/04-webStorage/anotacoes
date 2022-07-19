@@ -1,0 +1,5 @@
+localStorage.setItem("nome", "Lucas"); // salvar items localStorage
+localStorage.nome = "Lucas" //salva item
+localStorage.nome; // pega item salvo
+localStorage.getItem("nome") // pega item salvo
+localStorage.removeItem("nome"); //Remove item
