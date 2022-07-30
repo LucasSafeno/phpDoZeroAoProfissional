@@ -1,0 +1,1 @@
+// Aba network para monitorar todas as requisições AJAX
